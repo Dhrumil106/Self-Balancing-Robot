@@ -1,0 +1,8 @@
+../Core/Src/motor.c:37:13:set_motor_a	3
+../Core/Src/motor.c:59:13:set_motor_b	3
+../Core/Src/motor.c:84:6:Motor_Init	1
+../Core/Src/motor.c:97:6:Motor_Enable	1
+../Core/Src/motor.c:102:6:Motor_Disable	1
+../Core/Src/motor.c:108:6:Motor_Stop	1
+../Core/Src/motor.c:113:6:Motor_Set	9
+../Core/Src/motor.c:140:9:Encoder_GetDelta	1
