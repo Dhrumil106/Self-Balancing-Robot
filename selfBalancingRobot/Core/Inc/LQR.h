@@ -10,8 +10,7 @@
 
 typedef struct
 {
-	// User-defined
-	float dt; // based on PWM signals and timers configured
+	float dt;
 	float k1;
 	float k2;
 	float k3;

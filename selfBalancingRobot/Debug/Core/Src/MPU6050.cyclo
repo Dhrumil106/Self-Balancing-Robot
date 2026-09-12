@@ -1,5 +1,4 @@
-../Core/Src/MPU6050.c:56:13:i2c_error_handler	1
-../Core/Src/MPU6050.c:65:6:mpu6050_init	7
-../Core/Src/MPU6050.c:116:6:mpu6050_calibrate	1
-../Core/Src/MPU6050.c:125:6:mpu6050_read	2
-../Core/Src/MPU6050.c:162:7:mpu6050_get_angle	2
+../Core/Src/MPU6050.c:43:13:i2c_error_handler	1
+../Core/Src/MPU6050.c:59:6:mpu6050_init	7
+../Core/Src/MPU6050.c:112:6:mpu6050_read	2
+../Core/Src/MPU6050.c:136:7:mpu6050_get_angle	3

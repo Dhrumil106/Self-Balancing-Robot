@@ -10,8 +10,8 @@
 
 typedef struct
 {
-	// User-defined
-	float sampling_time; // based on PWM signals and timers configured
+
+	float sampling_time;
 	float kp;
 	float ki;
 	float kd;
