@@ -58,10 +58,10 @@ extern volatile float motor_output_debug;
 volatile uint8_t control_flag = 0;
 volatile uint8_t count = 0;
 PIDController pidController = {
-    .kp = 60.0f,
+    .kp = 15.0f,
     .ki = 0.0f,
-    .kd = 2.5f,
-    .sampling_time = 0.002f   // matches your TIM4 500Hz period (Prescaler=99, Period=1999)
+    .kd = 1.5f,
+    .sampling_time = 0.002f
 };
 /* USER CODE END PV */
 
