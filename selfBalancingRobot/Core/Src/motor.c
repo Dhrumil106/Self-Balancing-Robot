@@ -105,6 +105,7 @@ void Motor_Stop(void)
 void Motor_Set(int16_t balance_speed, int16_t turn_speed)
 {
     int16_t speed_2 = balance_speed + turn_speed;
+    int16_t speed_1 = balance_speed - turn_speed;
 
 
     if (speed_2 > 0) speed_2 += MIN_SPEED;
